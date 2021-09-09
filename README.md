@@ -149,6 +149,12 @@ compilers: {
 
 Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
 
+/######################### Project Specifications ################################################
+
+openzeppelin-solidity@2.3.0
+Truffle v5.4.9
 Your ERC-721 Token Name : StarTokenSTR
 Your ERC-721 Token Symbol : STR
 Contract Address : 0xAd68cb6C1B69667401AC52fBb27312756c03b876
+
+#################################################################################################
