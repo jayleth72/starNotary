@@ -27,8 +27,7 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 //
 const fs = require("fs");
 
-const mnemonic =
-  "blast age faith napkin boat stage august custom observe tomorrow easy enhance";
+const mnemonic = "blast....";
 
 module.exports = {
   /**
@@ -69,10 +68,7 @@ module.exports = {
     rinkeby: {
       networkCheckTimeout: 1000000,
       provider: () =>
-        new HDWalletProvider(
-          mnemonic,
-          `https://rinkeby.infura.io/v3/1d24f9ae808949e4b70962206c224bb9`
-        ),
+        new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/1d2....`),
       network_id: 4, // Ropsten's id
       gas: 5500000, // Ropsten has a lower block limit than mainnet
       confirmations: 2, // # of confs to wait between deployments. (default: 0)
